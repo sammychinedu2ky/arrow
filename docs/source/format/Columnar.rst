@@ -79,7 +79,7 @@ concepts, here is a small glossary to help disambiguate.
 * **Nested type**: a data type whose full structure depends on one or
   more other child types. Two fully-specified nested types are equal
   if and only if their child types are equal. For example, ``List<U>``
-  is distinct from ``List<V>`` iff U and V are different types.
+  is distinct from ``List<V>`` if U and V are different types.
 * **Parent** and **child arrays**: names to express relationships
   between physical value arrays in a nested type structure. For
   example, a ``List<T>``-type parent array has a T-type array as its
